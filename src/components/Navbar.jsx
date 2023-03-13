@@ -3,14 +3,11 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-dark bg-primary mb-3">
+     <nav className="navbar navbar-dark bg-primary mb-3">
       <div className="container">
-        <a className="navbar-brand" href="/">
-          Wiki-Countries
-        </a>
+        <a className="navbar-brand" href="/">Wiki-Countries</a>
       </div>
-    </nav>
+     </nav>
   );
 };
-
 export default Navbar;
