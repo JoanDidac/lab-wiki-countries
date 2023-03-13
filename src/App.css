@@ -66,6 +66,11 @@ body {
   box-shadow: 0px 0px 15px gray;
 }
 
+.list-group input {
+  margin-bottom: 10px;
+}
+
+
 /* Styles CountryDetails */
 .loading {
   display: flex;
@@ -116,3 +121,4 @@ body {
 .table td:last-child ul li a:hover {
   text-decoration: underline;
 }
+

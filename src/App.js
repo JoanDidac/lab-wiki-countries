@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import CountriesList from './components/CountriesList';
 import CountryDetail from './components/CountryDetails';
+import Search from './components/Search';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -28,7 +29,9 @@ function App() {
           <div className="container">
           <div className="row">
           <CountriesList countries={countries} />
+         {/* <Search/> */}
          <Routes>
+      
           <Route
                 path="/:alpha3Code"
                 element={<CountryDetail countries={countries} />}
